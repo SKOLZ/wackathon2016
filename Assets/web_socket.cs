@@ -44,7 +44,7 @@ public class web_socket : MonoBehaviour {
 				var seconds = Math.Round(raw_time / 60).ToString("00");
 				var minutes = Math.Round(raw_time % 60).ToString("00");
 				data_time = seconds + ":" + minutes;
-				data_resting = message["resting"] == "true";
+				data_resting = String.Compare(message["resting"], "true") == 0;
 			};
 			ws.OnClose += (sender, e) => {
 				Debug.Log("Close:" + e.Code);
@@ -76,7 +76,7 @@ public class web_socket : MonoBehaviour {
 		return Math.Min(value_speed * 0.8f, 80);
 	}
 
-	public Boolean getResting() {
+	public bool getResting() {
 		return data_resting;
 	}
 }

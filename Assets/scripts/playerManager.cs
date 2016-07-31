@@ -9,7 +9,7 @@ public class playerManager : MonoBehaviour {
 		RESTING = 1,
 		STOPPED = 2
 	}
-
+	public Animator playerAnimator;
 	private float speed;
 
 	private PlayerState state;
@@ -19,17 +19,31 @@ public class playerManager : MonoBehaviour {
 		speed = 0;
 	}
 
-	void Update () {
-		speed = ws.getSpeed ();
-		var isResting = ws.getResting ();
+	public bool isRiding () {
+		return state == PlayerState.RIDING;
+	}
 	
+	public bool isResting () {
+		return state == PlayerState.RESTING;
+	}
+	
+	public bool isStopped () {
+		return state == PlayerState.STOPPED;
+	}
+
+	void Update () {
+		playerAnimator.SetBool("isResting", this.isResting());
+		playerAnimator.SetBool("isRiding", isRiding());
+		playerAnimator.SetBool("hasStopped", isStopped());
+		speed = ws.getSpeed ();
+		bool restStatus = ws.getResting ();
 		if (!isStopped()) {
 			Vector3 newPos = transform.position;
 			newPos.z += speed * Time.deltaTime;
 			transform.position = newPos;
 			if (speed == 0) {
 				state = PlayerState.STOPPED;
-			} else if (isResting) {
+			} else if (restStatus) {
 				Debug.Log ("resting!");
 				state = PlayerState.RESTING;
 			}
@@ -40,15 +54,4 @@ public class playerManager : MonoBehaviour {
 		}
 	}
 
-	public bool isRiding () {
-		return state == PlayerState.RIDING;
-	}
-
-	public bool isResting () {
-		return state == PlayerState.RESTING;
-	}
-
-	public bool isStopped () {
-		return state == PlayerState.STOPPED;
-	}
 }
