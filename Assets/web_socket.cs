@@ -29,7 +29,6 @@ public class web_socket : MonoBehaviour {
 			};
 			ws.OnMessage += (sender, e) => {
 				var message = JSON.Parse(e.Data);
-				value_speed = float.Parse(message["speed"]);
 				data_speed = Math.Round(value_speed)  + " KM/H";
 				var raw_time = float.Parse(message["time"]);
 				if(prev_raw_time == 0) {

@@ -1,0 +1,209 @@
+fileFormatVersion: 2
+guid: 10b3ecedf70d54bbe9971aeb0203a34e
+timeCreated: 1469938679
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Rack_Null_1_Atom_Array_11
+    100002: Rack_Null_1_Atom_Array_11_MeshPart0
+    100004: Rack_Null_1_Atom_Array_11_MeshPart1
+    100006: Rack_Null_1_Atom_Array_11_MeshPart2
+    100008: Rack_Null_1_Atom_Array_11_MeshPart3
+    100010: Rack_Null_1_Atom_Array_11_MeshPart4
+    100012: Rack_Null_1_Cube2
+    100014: Rack_Null_1_Cube3
+    100016: Rack_Null_1_Cube_11
+    100018: Rack_Null_2_Atom_Array_1
+    100020: Rack_Null_2_Atom_Array_1_MeshPart0
+    100022: Rack_Null_2_Atom_Array_1_MeshPart1
+    100024: Rack_Null_2_Atom_Array_1_MeshPart2
+    100026: Rack_Null_2_Atom_Array_1_MeshPart3
+    100028: Rack_Null_2_Atom_Array_1_MeshPart4
+    100030: Rack_Null_2_Cube
+    100032: Rack_Null_2_Cube1
+    100034: Rack_Null_2_Cube_1
+    100036: Rack_Null_Atom_Array_12
+    100038: Rack_Null_Atom_Array_12_MeshPart0
+    100040: Rack_Null_Atom_Array_12_MeshPart1
+    100042: Rack_Null_Atom_Array_12_MeshPart2
+    100044: Rack_Null_Atom_Array_12_MeshPart3
+    100046: Rack_Null_Atom_Array_12_MeshPart4
+    100048: Rack_Null_Cube4
+    100050: Rack_Null_Cube5
+    100052: Rack_Null_Cube_12
+    100054: Rack_Sides_Sweep
+    100056: Rack_Sides_Sweep_3
+    100058: //RootNode
+    400000: Rack_Null_1_Atom_Array_11
+    400002: Rack_Null_1_Atom_Array_11_MeshPart0
+    400004: Rack_Null_1_Atom_Array_11_MeshPart1
+    400006: Rack_Null_1_Atom_Array_11_MeshPart2
+    400008: Rack_Null_1_Atom_Array_11_MeshPart3
+    400010: Rack_Null_1_Atom_Array_11_MeshPart4
+    400012: Rack_Null_1_Cube2
+    400014: Rack_Null_1_Cube3
+    400016: Rack_Null_1_Cube_11
+    400018: Rack_Null_2_Atom_Array_1
+    400020: Rack_Null_2_Atom_Array_1_MeshPart0
+    400022: Rack_Null_2_Atom_Array_1_MeshPart1
+    400024: Rack_Null_2_Atom_Array_1_MeshPart2
+    400026: Rack_Null_2_Atom_Array_1_MeshPart3
+    400028: Rack_Null_2_Atom_Array_1_MeshPart4
+    400030: Rack_Null_2_Cube
+    400032: Rack_Null_2_Cube1
+    400034: Rack_Null_2_Cube_1
+    400036: Rack_Null_Atom_Array_12
+    400038: Rack_Null_Atom_Array_12_MeshPart0
+    400040: Rack_Null_Atom_Array_12_MeshPart1
+    400042: Rack_Null_Atom_Array_12_MeshPart2
+    400044: Rack_Null_Atom_Array_12_MeshPart3
+    400046: Rack_Null_Atom_Array_12_MeshPart4
+    400048: Rack_Null_Cube4
+    400050: Rack_Null_Cube5
+    400052: Rack_Null_Cube_12
+    400054: Rack_Sides_Sweep
+    400056: Rack_Sides_Sweep_3
+    400058: //RootNode
+    2300000: Rack_Null_1_Atom_Array_11_MeshPart0
+    2300002: Rack_Null_1_Atom_Array_11_MeshPart1
+    2300004: Rack_Null_1_Atom_Array_11_MeshPart2
+    2300006: Rack_Null_1_Atom_Array_11_MeshPart3
+    2300008: Rack_Null_1_Atom_Array_11_MeshPart4
+    2300010: Rack_Null_1_Cube2
+    2300012: Rack_Null_1_Cube3
+    2300014: Rack_Null_1_Cube_11
+    2300016: Rack_Null_2_Atom_Array_1_MeshPart0
+    2300018: Rack_Null_2_Atom_Array_1_MeshPart1
+    2300020: Rack_Null_2_Atom_Array_1_MeshPart2
+    2300022: Rack_Null_2_Atom_Array_1_MeshPart3
+    2300024: Rack_Null_2_Atom_Array_1_MeshPart4
+    2300026: Rack_Null_2_Cube
+    2300028: Rack_Null_2_Cube1
+    2300030: Rack_Null_2_Cube_1
+    2300032: Rack_Null_Atom_Array_12_MeshPart0
+    2300034: Rack_Null_Atom_Array_12_MeshPart1
+    2300036: Rack_Null_Atom_Array_12_MeshPart2
+    2300038: Rack_Null_Atom_Array_12_MeshPart3
+    2300040: Rack_Null_Atom_Array_12_MeshPart4
+    2300042: Rack_Null_Cube4
+    2300044: Rack_Null_Cube5
+    2300046: Rack_Null_Cube_12
+    2300048: Rack_Sides_Sweep
+    2300050: Rack_Sides_Sweep_3
+    3300000: Rack_Null_1_Atom_Array_11_MeshPart0
+    3300002: Rack_Null_1_Atom_Array_11_MeshPart1
+    3300004: Rack_Null_1_Atom_Array_11_MeshPart2
+    3300006: Rack_Null_1_Atom_Array_11_MeshPart3
+    3300008: Rack_Null_1_Atom_Array_11_MeshPart4
+    3300010: Rack_Null_1_Cube2
+    3300012: Rack_Null_1_Cube3
+    3300014: Rack_Null_1_Cube_11
+    3300016: Rack_Null_2_Atom_Array_1_MeshPart0
+    3300018: Rack_Null_2_Atom_Array_1_MeshPart1
+    3300020: Rack_Null_2_Atom_Array_1_MeshPart2
+    3300022: Rack_Null_2_Atom_Array_1_MeshPart3
+    3300024: Rack_Null_2_Atom_Array_1_MeshPart4
+    3300026: Rack_Null_2_Cube
+    3300028: Rack_Null_2_Cube1
+    3300030: Rack_Null_2_Cube_1
+    3300032: Rack_Null_Atom_Array_12_MeshPart0
+    3300034: Rack_Null_Atom_Array_12_MeshPart1
+    3300036: Rack_Null_Atom_Array_12_MeshPart2
+    3300038: Rack_Null_Atom_Array_12_MeshPart3
+    3300040: Rack_Null_Atom_Array_12_MeshPart4
+    3300042: Rack_Null_Cube4
+    3300044: Rack_Null_Cube5
+    3300046: Rack_Null_Cube_12
+    3300048: Rack_Sides_Sweep
+    3300050: Rack_Sides_Sweep_3
+    4300000: Rack_Null_1_Atom_Array_11_MeshPart0
+    4300002: Rack_Null_1_Atom_Array_11_MeshPart1
+    4300004: Rack_Null_1_Atom_Array_11_MeshPart2
+    4300006: Rack_Null_1_Atom_Array_11_MeshPart3
+    4300008: Rack_Null_1_Atom_Array_11_MeshPart4
+    4300010: Rack_Null_1_Cube2
+    4300012: Rack_Null_1_Cube3
+    4300014: Rack_Null_1_Cube_11
+    4300016: Rack_Null_2_Atom_Array_1_MeshPart0
+    4300018: Rack_Null_2_Atom_Array_1_MeshPart1
+    4300020: Rack_Null_2_Atom_Array_1_MeshPart2
+    4300022: Rack_Null_2_Atom_Array_1_MeshPart3
+    4300024: Rack_Null_2_Atom_Array_1_MeshPart4
+    4300026: Rack_Null_2_Cube
+    4300028: Rack_Null_2_Cube1
+    4300030: Rack_Null_2_Cube_1
+    4300032: Rack_Null_Atom_Array_12_MeshPart0
+    4300034: Rack_Null_Atom_Array_12_MeshPart1
+    4300036: Rack_Null_Atom_Array_12_MeshPart2
+    4300038: Rack_Null_Atom_Array_12_MeshPart3
+    4300040: Rack_Null_Atom_Array_12_MeshPart4
+    4300042: Rack_Null_Cube4
+    4300044: Rack_Null_Cube5
+    4300046: Rack_Null_Cube_12
+    4300048: Rack_Sides_Sweep
+    4300050: Rack_Sides_Sweep_3
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
