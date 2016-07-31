@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class playerManager : MonoBehaviour {
 	public web_socket ws;
@@ -29,6 +30,10 @@ public class playerManager : MonoBehaviour {
 	
 	public bool isStopped () {
 		return state == PlayerState.STOPPED;
+	}
+
+	public void goToMenu() {
+		SceneManager.LoadScene("menu");
 	}
 
 	void Update () {
