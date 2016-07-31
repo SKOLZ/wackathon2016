@@ -16,11 +16,7 @@ public class menuManager : MonoBehaviour {
 	public float cameraMoveSpeed;
 	public float cameraFinalPos;
 
-	private MenuState state;
-
-	public void Start () {
-		state = MenuState.LOGIN;
-	}
+	public MenuState state = MenuState.LOGIN;
 
 	public void login () {
 		state = MenuState.TRANSITION;

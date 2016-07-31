@@ -33,7 +33,7 @@ public class playerManager : MonoBehaviour {
 	}
 
 	public void goToMenu() {
-		SceneManager.LoadScene("menu");
+		SceneManager.LoadScene("loggedInMenu");
 	}
 
 	void Update () {
