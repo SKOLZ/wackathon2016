@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/scenes/menu.unity
+=======
+- path: Assets/scenes/sockets.unity
+>>>>>>> 042b805770b56180db3dd498ad56f05a3c130dac
   isLoaded: 1
   isActive: 1
