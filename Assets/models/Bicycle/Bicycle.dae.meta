@@ -1,0 +1,126 @@
+fileFormatVersion: 2
+guid: 989728da93d0746df9d72ffea83ba3e3
+timeCreated: 1469893217
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: //RootNode
+    100004: Bicycle
+    100006: bodyJT
+    100008: hand_brakeJTL
+    100010: hand_brakeJTLEnd
+    100012: hand_brakeJTR
+    100014: hand_brakeJTREnd
+    100016: hand_positionJTL
+    100018: hand_positionJTR
+    100020: handleAJT
+    100022: pedalAJTL
+    100024: pedalAJTR
+    100026: pedalaxle
+    100028: pedalBJTL
+    100030: pedalBJTR
+    100032: pedalJTLEnd
+    100034: pedalJTREnd
+    100036: positionJT
+    100038: rootJT
+    100040: saddleJT
+    100042: saddleJTEnd
+    100044: wheel_backJT
+    100046: wheel_backJTEnd
+    100048: wheel_frontJT
+    100050: wheel_frontJTEnd
+    400000: Armature
+    400002: Bicycle
+    400004: //RootNode
+    400006: bodyJT
+    400008: hand_brakeJTL
+    400010: hand_brakeJTLEnd
+    400012: hand_brakeJTR
+    400014: hand_brakeJTREnd
+    400016: hand_positionJTL
+    400018: hand_positionJTR
+    400020: handleAJT
+    400022: pedalAJTL
+    400024: pedalAJTR
+    400026: pedalaxle
+    400028: pedalBJTL
+    400030: pedalBJTR
+    400032: pedalJTLEnd
+    400034: pedalJTREnd
+    400036: positionJT
+    400038: rootJT
+    400040: saddleJT
+    400042: saddleJTEnd
+    400044: wheel_backJT
+    400046: wheel_backJTEnd
+    400048: wheel_frontJT
+    400050: wheel_frontJTEnd
+    4300000: Bicycle
+    9500000: //RootNode
+    13700000: Bicycle
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

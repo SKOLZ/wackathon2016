@@ -10,7 +10,7 @@ public class web_socket : MonoBehaviour {
 	void Start () {
 		Debug.Log("start");
 		//using (var ws = new WebSocket ("ws://10.0.0.22:8080")) {
-		var ws = new WebSocket ("ws://10.0.0.22:8080");
+		var ws = new WebSocket ("ws://10.0.0.51:8080");
 			Debug.Log("ws");
 			ws.OnOpen += (sender, e) => {
 				Debug.Log("Open: ");

@@ -45,7 +45,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\scripts\playerManager.cs" />
+     <Compile Include="Assets\scripts\roadManager.cs" />
      <Compile Include="Assets\web_socket.cs" />
+     <None Include="Assets\Wispy Sky\ReadMe.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
