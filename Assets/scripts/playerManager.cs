@@ -6,7 +6,8 @@ public class playerManager : MonoBehaviour {
 
 	public enum PlayerState {
 		RIDING = 0,
-		RESTING = 1
+		RESTING = 1,
+		STOPPED = 2
 	}
 
 	private float speed;
@@ -14,17 +15,22 @@ public class playerManager : MonoBehaviour {
 	private PlayerState state;
 	
 	void Start () {
-		state = PlayerState.RESTING;
+		state = PlayerState.STOPPED;
 		speed = 0;
 	}
 
 	void Update () {
 		speed = ws.getSpeed ();
-		if (isRiding ()) {
+		var isResting = ws.getResting ();
+	
+		if (!isStopped()) {
 			Vector3 newPos = transform.position;
 			newPos.z += speed * Time.deltaTime;
 			transform.position = newPos;
 			if (speed == 0) {
+				state = PlayerState.STOPPED;
+			} else if (isResting) {
+				Debug.Log ("resting!");
 				state = PlayerState.RESTING;
 			}
 		} else {
@@ -40,5 +46,9 @@ public class playerManager : MonoBehaviour {
 
 	public bool isResting () {
 		return state == PlayerState.RESTING;
+	}
+
+	public bool isStopped () {
+		return state == PlayerState.STOPPED;
 	}
 }

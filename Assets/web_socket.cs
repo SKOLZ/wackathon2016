@@ -10,9 +10,11 @@ public class web_socket : MonoBehaviour {
 	public Text distance;
 	public Text time;
 
+	private float value_speed = 0;
 	private string data_speed = "0";
 	private string data_distance = "0";
-	private string data_time = "0";
+	private string data_time = "00:00";
+	private Boolean data_resting = false;
 	// Use this for initialization
 	void Start () {
 		//using (var ws = new WebSocket ("ws://10.0.0.22:8080")) {
@@ -22,12 +24,14 @@ public class web_socket : MonoBehaviour {
 			};
 			ws.OnMessage += (sender, e) => {
 				var message = JSON.Parse(e.Data);
-				data_speed = message["speed"];
-				data_distance = message["distance"];
-				data_time = message["time"];
-				// Debug.Log("Speed: " + message["speed"]);
-				// Debug.Log("Speed: " + message["speed"]);
-				// Debug.Log("Speed: " + message["speed"]);
+				value_speed = float.Parse(message["speed"]);
+				data_speed = Math.Round(value_speed)  + " KM/H";
+				data_distance = message["distance"] + " KM";
+				var raw_time = float.Parse(message["time"]);
+				var seconds = Math.Round(raw_time / 60).ToString("00");
+				var minutes = Math.Round(raw_time % 60).ToString("00");
+				data_time = seconds + ":" + minutes;
+				data_resting = message["resting"] == "true";
 			};
 			ws.OnClose += (sender, e) => {
 				Debug.Log("Close:" + e.Code);
@@ -42,10 +46,10 @@ public class web_socket : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(speed.text != data_speed) {
-			speed.text = data_speed + " KM/H";
+			speed.text = data_speed;
 		}
 		if(distance.text != data_distance) {
-			distance.text = data_distance + " KM";
+			distance.text = data_distance;
 		}
 		if(time.text != data_time) {
 			time.text = data_time;
@@ -53,6 +57,10 @@ public class web_socket : MonoBehaviour {
 	}
 
 	public float getSpeed() {
-		return float.Parse (data_speed);
+		return Math.Min(value_speed * 0.8f, 80);
+	}
+
+	public Boolean getResting() {
+		return data_resting;
 	}
 }
