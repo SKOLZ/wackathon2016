@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class menuManager : MonoBehaviour {
 	
@@ -44,6 +45,10 @@ public class menuManager : MonoBehaviour {
 
 	private bool isInMenu() {
 		return state == MenuState.MENU;
+	}
+
+	public void playFreeRideMode () {
+		SceneManager.LoadScene("game");
 	}
 
 	public void exit () {
