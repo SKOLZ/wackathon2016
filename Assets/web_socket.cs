@@ -23,14 +23,14 @@ public class web_socket : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		//using (var ws = new WebSocket ("ws://10.0.0.22:8080")) {
-		var ws = new WebSocket ("ws://10.0.0.165:8080");
+		var ws = new WebSocket ("ws://localhost:8080");
 			ws.OnOpen += (sender, e) => {
 				Debug.Log("Open: ");
 			};
 			ws.OnMessage += (sender, e) => {
 				var message = JSON.Parse(e.Data);
 				value_speed = float.Parse(message["speed"]);
-				data_speed = Math.Round(value_speed)  + " KM/H";
+				data_speed = Math.Round(value_speed).ToString();
 				var raw_time = float.Parse(message["time"]);
 				if(prev_raw_time == 0) {
 					prev_raw_time = raw_time;
