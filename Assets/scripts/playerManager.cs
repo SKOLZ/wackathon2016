@@ -44,8 +44,9 @@ public class playerManager : MonoBehaviour {
 			if (speed == 0) {
 				state = PlayerState.STOPPED;
 			} else if (restStatus) {
-				Debug.Log ("resting!");
 				state = PlayerState.RESTING;
+			} else {
+				state = PlayerState.RIDING;
 			}
 		} else {
 			if (speed != 0) {
